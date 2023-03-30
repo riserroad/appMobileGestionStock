@@ -7,7 +7,7 @@ type Props = {
 };
 
 export default function DetailsScreen({ route, navigation }: Props) {
-  const { item } = route.params;
+ // const { item } = route.params;
 
   return (
     <View style={styles.container}>
